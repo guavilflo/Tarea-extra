@@ -3308,7 +3308,13 @@
 /* CTA */
 
 	#cta {
-		background: #e89980;
+		/*background: #88817f;*/
+
+		background-attachment: scroll,							fixed;
+		background-image: url("images/overlay.png"), url("../../images/banner1.jpg");
+		background-position: top left,						center center;
+		background-repeat: repeat,							no-repeat;
+		background-size: auto,							cover;
 		color: #f9e6df;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
@@ -3330,7 +3336,7 @@
 		#cta .button {
 			box-shadow: none;
 			background: #fff;
-			color: #e89980;
+			color: #777;
 		}
 
 		#cta input[type="text"],
