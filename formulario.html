@@ -1,0 +1,193 @@
+<!DOCTYPE HTML>
+<!--
+	Alpha by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic - Alpha by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1><a href="index.html">Alpha</a> by HTML5 UP</h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li>
+								<a href="#" class="icon solid fa-angle-down">Layouts</a>
+								<ul>
+									<li><a href="generic.html">Generic</a></li>
+									<li><a href="contact.html">Contact</a></li>
+									<li><a href="elements.html">Elements</a></li>
+									<li>
+										<a href="#">Submenu</a>
+										<ul>
+											<li><a href="#">Option One</a></li>
+											<li><a href="#">Option Two</a></li>
+											<li><a href="#">Option Three</a></li>
+											<li><a href="#">Option Four</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#" class="button">Sign Up</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<section id="main" class="container">
+					<header>
+						<h2>Formulario</h2>
+						<p>Formulario sobre cine y experiencia en esta página web</p>
+					</header>
+					<section class="box">
+						<form name="Formulario" action="mailto:pferfer@g.educaand.es" method="post" target="_self" enctype="text/plain">
+							<fieldset style="border-color:black;">
+							<legend style="font-size: 16pt;"><b>Datos personales</b></legend><br>
+							<div class="row gtr-uniform gtr-50">
+								<div class="col-6 col-12-mobilep">
+									<input type="text" name="name" id="name" value="" placeholder="Nombre" />
+								</div>
+								<div class="col-6 col-12-mobilep">
+									<input type="text" name="apellidos" id="apellidos" value="" placeholder="Apellidos" />
+								</div>
+								<div class="col-6 col-12-mobilep">
+									<input type="email" name="email" id="email" value="" placeholder="Email" />
+								</div>
+								<div class="col-6 col-12-mobilep">
+									<input type="number" name="edad" id="edad" placeholder="Edad" min="18"/>
+								</div>
+							</div>
+							</fieldset>
+
+							<hr/>
+
+							<fieldset>
+								<legend style="font-size: 16pt;"><b>Sobre cine</b></legend><br>
+								<p><b>¿En qué plataforma suele ver películas?</b></p>
+									<input type="checkbox" name="cine" id="cine" value="cine">
+									<label for="cine">Cine</label><br/>
+									<input type="checkbox" name="tv" id="tv" value="tv">
+									<label for="tv">Televisión</label><br/>
+									<input type="checkbox" name="pc" id="pc" value="pc">
+									<label for="pc">Ordenador/Dispositivo personal</label><br/>
+
+									<p><b>¿Consume más películas o series?</b></p>
+									<input type="radio" name="serie_peli" id="series" value="series">
+									<label for="series">Series</label>
+									<br>
+									<input type="radio" name="serie_peli" id="pelis" value="pelis">
+									<label for="pelis">Películas</label><br/>
+									<input type="radio" name="serie_peli" id="igual" value="igual">
+									<label for="igual">Ambas por igual</label>
+									
+									<p><b>Si tuviera que elegir una categoría, ¿cuál sería su favorita?</b></p>
+									<label for="opciones">Seleccione entre las siguientes opciones:</label>
+									<select name="opciones" id="opciones">
+										<option value="cat">Categoría</option>
+										<option value="com">Comedia</option>
+										<option value="dra">Drama</option>
+										<option value="ac">Acción</option>
+										<option value="ci">Ciencia ficción</option>
+										<option value="fan">Fantasía</option>
+										<option value="mu">Musical</option>
+										<option value="ter">Terror</option>
+										<option value="sus">Suspense</option>
+										<option value="rom">Romance</option>
+										<option value="an">Animación</option>
+										<option value="ot">Otra</option>
+									</select><br><br>
+			
+									<label for="opcion">Si ha elegido otra, indíquela:</label>
+									<input type="text" name="opcion" id="opcion">
+
+							</fieldset>
+
+							<hr/>
+
+							<fieldset style="border-color:black;">
+								<legend style="font-size: 16pt;"><b>Sobre esta página</b></legend><br>
+								<p><b>¿Qué sección incluiría en esta página?</b></p>
+								<input type="checkbox" name="comedia" id="comedia" value="comedia">
+								<label for="comedia">Comedia</label><br/>
+								<input type="checkbox" name="thriller" id="thriller" value="thriller">
+								<label for="thriller">Thriller</label><br/>
+								<input type="checkbox" name="musical" id="musical" value="musical">
+								<label for="musical">Musicales</label><br/>
+								<input type="checkbox" name="documental" id="documental" value="documental">
+								<label for="documental">Documental</label><br/>
+								<input type="checkbox" name="otra" id="otra" value="otra">
+								<label for="otra">Otra</label><br/>
+								<label for="alter">Indique otra opción:</label>
+								<input type="text" name="alter" id="alter"><br/>
+
+								<p><b>De las noticias publicadas, ¿cuáles han sido sus favoritas?</b></p>
+								<input type="checkbox" name="megan" id="megan" value="megan">
+								<label for="megan">Megan (2022)</label><br/>
+								<input type="checkbox" name="anabelle" id="anabelle" value="anabelle">
+								<label for="anabelle">Anabelle (2019)</label><br/>
+								<input type="checkbox" name="monstruo" id="monstruo" value="monstruo">
+								<label for="monstruo">Un monstruo viene a verme (2016)</label><br/>
+								<input type="checkbox" name="pijama" id="pijama" value="pijama">
+								<label for="pijama">El niño con el pijama de rayas (2008)</label><br/>
+								<input type="checkbox" name="soul" id="soul" value="soul">
+								<label for="soul">Soul (2020)</label><br/>
+								<input type="checkbox" name="luciernagas" id="luciernagas" value="luciernagas">
+								<label for="luciernagas">La tumba de las luciérnagas (1988)</label><br/>
+								<input type="checkbox" name="fast" id="fast" value="fast">
+								<label for="fast">Fast & furious 9 (2015)</label><br/>
+								<input type="checkbox" name="superviviente" id="superviviente" value="superviviente">
+								<label for="superviviente">El superviviente (2021)</label><br/>
+			
+								<p><b>¿Desea añadir algo más?</b></p>
+								<textarea name="mensaje" id="mensaje" rows="8" cols="50" placeholder="¡Déjanos cualquier comentario o sugerencia!"></textarea><br/>
+			
+								<br/>
+								</fieldset><br/>
+
+								<div class="boton_formulario">
+									<button class="button" type="submit" value="enviar" name="enviar" id="enviar">ENVIAR</button>
+									<button class="button" type="reset" value="reset" name="reset" id="reset">BORRAR</button>
+								</div>
+
+						</form>
+
+					</section>
+				</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+						<li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
